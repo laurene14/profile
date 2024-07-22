@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-image: url("images/flower.jpg");
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+h1 {
+  color: #8F495A;
+  font-family: "Merriweather";
+  font-size: 26px;
+  line-height: 40px;
+}
+
+h2 {
+  color: #852791;
+  font-family: "Poppins";
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a {
+  background-color: #ed2876;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  background: #EAD0D3;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 4px 4px 2px #cab8b8;
+  border: 2px dotted #d261ae;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#btn-purple {
+  background-color: #89A1EF;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+#btn-purple:hover {
+  background-color: #ed2876;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
